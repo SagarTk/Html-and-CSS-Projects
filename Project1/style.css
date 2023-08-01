@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Oswald&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Archivo;
+}
+
+.header{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #dadada ;
+    padding: 0 10vw;
+}
+
+.logo{
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+
+.logo img{
+    width: 1vw;
+}
+
+.part1 a{
+    text-decoration: none;
+    color: rgb(41, 39, 39);
+    margin: 0 1vw;
+}
+
+/* .part2  */
+button{
+    border: none;
+    outline: none;
+    padding: 1vw;
+    background-color: white;
+    cursor: pointer;
+}
+
+.part2 > .login{
+    background-color: blue;
+    color: white;
+    font-size: 1vw;
+}
+
+.cntsales{
+    font-size: 1vw;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    width: 80%;
+    height: 15vw;
+    padding-top: 4vw;
+    /* background-color: rgb(245, 245, 245); */
+    display: flex;
+}
+
+.left-content{
+    width: 50%;
+    height: 100%;
+    font-size: 3vw;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.left-content > p{
+    width: 70%;
+}
+
+.right-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.right-content > p{
+    width: 90%;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(46, 45, 45);
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image > img{
+    width: 80%;
+    height: 29vw;
+}
+
+.image p{
+    width: 80%;
+    text-align: center;
+    padding: 0.5vw;
+    background-color: #dadada;
+    font-size: 0.8vw;
+}
+
+.assets{
+    width: 80%;
+    height: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.explore-container{
+    padding: 5vw 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada5d;
+}
+
+.explore{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.explore h2{
+    font-weight: bold;
+    font-size: 2.3vw;
+}
+
+.inner-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inner-data > p{
+    width: 50%;
+    line-height: 1.6vw;
+    color: rgb(105, 102, 102);
+}
+
+.inner-data button{
+    width: 8vw;
+    font-size: 1vw;
+    background-color: blue;
+    color: white;
+}
+
+.card{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+
+.cardbody{
+    width: 1fr;
+    background-color: white;
+    padding: 2vw;    
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.company-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.233);
+    padding: 0.3vw;
+    height: 3.4vw;
+    width: 3.4vw;
+}
+
+.company-logo img{
+    height: 3vw;
+    width: 3vw;
+}
+
+.title h4{
+    font-size: 15px;
+}
+
+.emp{
+    margin: 2vw 0;
+}
+
+.emp h4{
+    font-size: 17px;
+}
+
+.color{
+    margin: 2vw 0;
+}
+
+.blue{
+    background-color: rgba(0, 0, 255, 0.196);
+    color: blue;
+    padding: 0.25vw;
+    margin-right: 0.4vw;
+}
+
+.red{
+    background-color: rgba(255, 0, 0, 0.212);
+    color: red;
+    padding: 0.25vw;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add img{
+    height: 1.3vw;
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2vw;
+}
+
+.pay{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
