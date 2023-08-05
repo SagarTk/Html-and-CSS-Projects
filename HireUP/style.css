@@ -9,7 +9,7 @@
 
 .header{
     width: 100vw;
-    height: 5vw;
+    height: 4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,6 +18,12 @@
     position: fixed;
     background-color: white;
     z-index: 1;
+}
+
+.menu img{
+    width: 1.5vw;
+    height: 1.2vw;
+    display: none;
 }
 
 .logo{
@@ -33,6 +39,7 @@
     text-decoration: none;
     color: rgb(41, 39, 39);
     margin: 0 1vw;
+    font-size: 1vw;
 }
 
 button{
@@ -58,12 +65,14 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 4vw;
 }
 
 .content{
     width: 80%;
     height: 15vw;
-    padding-top: 4vw;
+    padding-top: 6vw;
+    padding-bottom: 4vw;
     display: flex;
 }
 
@@ -73,11 +82,12 @@ button{
     font-size: 3vw;
     font-weight: 600;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .left-content > p{
     width: 70%;
+    line-height: 3.8vw;
 }
 
 .right-content{
@@ -85,14 +95,14 @@ button{
     height: 100%;
     display: flex;
     align-items: center;
-    
 }
 
 .right-content > p{
     width: 90%;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(46, 45, 45);
+    font-size: 1.1vw;
+    line-height: 1.8vw;
+    font-weight: 200;
+    color: rgba(46, 45, 45, 0.678);
 }
 
 .image{
@@ -106,6 +116,7 @@ button{
 .image > img{
     width: 80%;
     height: 29vw;
+    margin-top: 3vw;
 }
 
 .image p{
@@ -122,6 +133,11 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.asset img{
+    width: 10vw;
+    height: 9vw;
 }
 
 .explore-container{
@@ -154,8 +170,9 @@ button{
 
 .inner-data > p{
     width: 50%;
-    line-height: 1.6vw;
+    line-height: 3.5vh;
     color: rgb(105, 102, 102);
+    font-size: 1.5vw;
 }
 
 .inner-data button{
@@ -188,6 +205,16 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1vw 0;
+}
+
+.title h4 {
+    font-size: 2vw;
+    font-weight: 560;
+}
+
+.title p{
+    font-size: 1vw;
 }
 
 .company-logo{
@@ -196,25 +223,23 @@ button{
     justify-content: center;
     border: 1px solid rgba(128, 128, 128, 0.233);
     padding: 0.3vw;
-    height: 3.4vw;
-    width: 3.4vw;
+    height: 5vw;
+    width: 5vw;
 }
 
 .company-logo img{
-    height: 3vw;
-    width: 3vw;
+    height: 3.5vw;
+    width: 3.5vw;
 }
 
-.title h4{
-    font-size: 15px;
-}
 
 .emp{
     margin: 2vw 0;
 }
 
 .emp h4{
-    font-size: 17px;
+    font-size: 2vw;
+    padding-bottom: 2vw;
 }
 
 .color{
@@ -224,24 +249,27 @@ button{
 .blue{
     background-color: rgba(0, 0, 255, 0.196);
     color: blue;
-    padding: 0.25vw;
+    padding: 0.4vw;
     margin-right: 0.4vw;
+    font-size: 1vw;
 }
 
 .red{
     background-color: rgba(255, 0, 0, 0.212);
     color: red;
-    padding: 0.25vw;
+    padding: 0.4vw;
+    font-size: 1vw;
 }
 
 .add{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1vw 0;
 }
 
 .add img{
-    height: 1.3vw;
+    height: 2.5vw;
 }
 
 .loc{
@@ -251,10 +279,18 @@ button{
     margin-right: 2vw;
 }
 
+.loc span{
+    font-size: 1.3vw;
+}
+
 .pay{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.pay span{
+    font-size: 1.3vw;
 }
 
 .why-container{
@@ -267,6 +303,7 @@ button{
 .why{
     display: flex;
     width: 80%;
+    align-items: center;
 }
 
 .smart{
@@ -286,6 +323,7 @@ button{
 .why-heading{
     color: blue;
     margin-bottom: 1vw;
+    font-size: 2vh;
 }
 
 .para{
@@ -295,7 +333,7 @@ button{
 }
 
 .why-data h1{
-    font-size: 2.5vw;
+    font-size: 5vh;
     line-height: 3vw;
     margin-bottom: 1vw;
 }
@@ -330,6 +368,7 @@ button{
 
 .featureBox p{
     color: #575454;
+    font-size: 1.6vh;
 }
 
 .blog-container{
@@ -374,6 +413,10 @@ button{
     width: 100%;
 }
 
+.blog-main p{
+    font-size: 1.4vw;
+}
+
 .blog-main button{
     font-size: 1vw;
     font-weight: 600;
@@ -385,12 +428,15 @@ button{
 .footer{
     width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border-top: 1px solid #dadada;
     margin-top: 6vw;
     background-color: #dadada5d;
+    padding: 3vw 0;
 }
+
 
 .foot-data{
     margin: 3vw 0;
@@ -398,6 +444,10 @@ button{
     display: flex;
     width: 80%;
     justify-content: space-between;
+}
+
+.footer p{
+    font-size: 1.6vw;
 }
 
 .class-1{width: 20%;}
@@ -452,3 +502,240 @@ button{
     text-align-last: right;
     color: #575454;
 }
+
+
+/* ------------------- */
+
+@media (max-width: 980px) {
+    .part1 a , .part2 button{
+        display: none;
+    }
+
+    .menu img{
+        display: inline;
+        width: 2vw;
+        height: 2vw;
+    }
+
+    .header{
+        height: 10vw;
+    }
+
+    .header .logo > img{
+        height: 12vw;
+        width: 12vw;
+    }
+
+    .main{
+        padding-top: 18vw;       
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 3vw;
+        margin-bottom: 5vw;
+    }
+
+    .left-content{
+        width: 80%;
+    }
+
+    .left-content p{
+        font-size: 4.4vw;
+        line-height: 6vw;
+    }
+
+    .righ-content{
+        width: 80%;
+    }
+
+    .right-content p{
+        width: 100%;
+        font-size: 1.6vw;
+        font-weight: 500;
+        line-height: 2.6vw;
+    }
+
+    .inner-data{
+        padding: 1.8vw 0;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    .inner-data p{
+        width: 70%;
+        /* line-height: 2vw; */
+    }
+
+    .explore-container{
+        padding: 12vw 0;
+    }
+
+    .explore h2{
+        font-size: 4vw;
+        letter-spacing: 0.2vw;
+    }
+
+    .card{
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(3 , 1fr);
+    }
+
+    .why{
+        flex-direction: column;
+        /* padding-top: 4vw; */
+        margin: 5vw 0;
+    }
+
+    .smart{
+        width: 100%;   
+        margin-bottom: 4vw;
+    }
+
+    .smart img{
+        width: 100%;
+        height: 25rem;
+    }
+
+    .assets{
+        display: flex;
+        flex-wrap: wrap;
+        /* grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(2 , 1fr); */
+    }
+
+    .why-data{
+        width: 100%;
+        margin: 0;
+    }
+
+    .why-data h1{
+        font-size: 4vw;
+        line-height: 4.5vw;
+        letter-spacing: 0.2vw;
+        font-weight: bold;
+        padding-top: 2.7vw;
+    }
+
+    .para{
+        font-size: 1.6vw;
+        line-height: 2vw;
+        margin-bottom: 3vw;
+    }
+
+    .featureBox{
+        padding: 2vw 1.5vw;
+    }
+
+    .featureBox img{
+        height: 4vw;
+        padding: 0.8vw;
+        margin-right: 4vw;
+    }
+
+    .featureBox h5 {
+        margin-bottom: 1vw;
+        font-size: 1.8vw;
+        font-weight: 500;
+    }
+
+    .blog-container > h2 {
+        margin: 3vw 0;
+        font-size: 4vw;
+        align-self: flex-start;
+        padding-left: 10%;
+    }
+
+    .blog {
+        width: 80%;
+        /* display: flex;
+        align-items: center; */
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* flex-wrap: wrap; */
+        gap: 4vw;
+    }
+
+    .blog-main {
+        width: 100%;
+    }
+
+    .blog-main > h2 {
+        font-size: 2vw;
+        letter-spacing: 0.2vw;
+        margin: 1.4vw 0;
+    }
+
+    .blog-main button {
+        font-size: 1.5vw;
+    }
+
+    .foot-data{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .foot-data h2{
+        font-size: 1.9vw;
+    }
+
+    .foot-data li{
+        font-size: 1.3vw;
+    }
+
+    .class-1{width: 100%;}
+    .class-2{width: 100%;}
+    .class-3{width: 100%;}
+    .class-4{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .class-4 input{
+        font-size: 1.3vw;
+    }
+
+    .class-4 button{
+        font-size: 1.3vw;
+    }
+
+}
+
+/* -------------------- */
+
+@media (max-width: 750px) {
+    
+    .header{
+        /* height: ; */
+    }
+
+    .assets {
+        padding: 3vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 2vw;
+        height: fit-content;
+    }
+
+    .card {
+        grid-template-columns: repeat(1 , 1fr);
+        grid-template-rows: repeat(6 , 1fr);
+    }
+
+    .inner-data button{
+        width: 100%;
+        font-size: 2.2vw;
+        padding: 2vw 1vw;
+    }
+
+    .inner-data p{
+        line-height: 3vw;
+    }
+
+}
+
+
