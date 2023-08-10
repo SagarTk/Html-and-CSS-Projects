@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Oswald&family=Poppins&family=Quicksand&family=Roboto&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #fffff2;
+    font-family: Quicksand;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #0e1630;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    header{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        position: fixed;
+        background-color: #0e1630;
+    
+        .nav{
+            width:  100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            .name{
+                font-size: 2vw;
+                span{
+                    color: #01D293;
+                }
+            }
+
+            .navigation{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                
+                width: 36%;
+                a{
+                    text-decoration: none;
+                    font-size: 1.1vw;
+                }
+
+                .nav-data{
+                    display: flex;
+                    width: 80%;
+                    justify-content: space-between;
+                    align-items: center;
+                    a{
+                        color: #808DAD;
+                    }
+                }
+                
+                .social-handles{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 15%;
+                    
+                    h5{
+                        color: #808DAD;
+                        font-size: 1.4vw;
+                    }
+
+                    img{
+                        margin-top: 5.5px;
+                        height: 1vw;
+                        width: 1vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .about{
+        margin: 5vw 0;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        
+        .left-section{
+            width: 50%;
+            padding: 2vw 0;
+
+            .hello{
+                display: flex;
+                align-items: center;
+                font-size: 1.6vw;
+                padding: 1vw 0;
+
+                span{
+                    hr{
+                        width: 2vw;
+                        margin-right: 0.5vw;
+                        border: 1px solid #01D293;
+                    }
+                }
+                color: #01D293;
+            }
+
+            h4{
+                font-size: 2vw;
+                font-weight: 500;
+                color: #E5E7EB;
+            }
+
+            .desig{
+                padding: 0.5vw 0;
+                color: #808DAD;
+                font-size: 1.2vw;
+            }
+            .info{
+                color: #808DAD;
+                font-size: 1vw;
+                padding-top: 1.2vw;
+            }
+
+        }
+
+        .right-section{
+            padding: 2vw 0;
+            img{
+                height: 28vw;
+                width: 28vw;
+                border-radius: 50%;
+            }
+        }
+
+    }
+
+    .qualification{
+        width: 90%;
+        margin: 1.5vw 0;
+
+        .qual{
+            display: flex;
+            align-items: center;
+            font-size: 1.6vw;
+            padding: 1.5vw 0;
+
+            span{
+                hr{
+                    width: 2vw;
+                    margin-right: 0.5vw;
+                    border: 1px solid #01D293;
+                }
+            }
+            color: #01D293;
+        }
+
+        .education{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .edu-sec{
+                border: 1px solid #808DAD;
+                width: 30%;
+                height: 140px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0 0.5vw;
+                border-radius: 1vw;
+                
+                div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .title{
+                        display: flex;
+                        align-items: center;
+                        img{
+                            height: 1.2vw;
+                            width: 1.2vw;
+                            margin-right: 0.4vw;
+                        }
+                    }
+                    span{
+                        color: #6c81b6;
+                        font-size: 0.8vw;
+                    }
+                }
+                .place{
+                    color: #808DAD;
+                    font-size: 0.8vw;
+                    padding-top: 0.2vw;
+                }
+                .grade{
+                    color: #808DAD;
+                    font-size: 0.9vw;
+                    padding-top: 1vw;
+                }
+            }
+
+            
+
+        }
+    }
+    
+    .skills{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 5vw;
+        // margin-bottom: 0vw;
+        .myskill{
+            display: flex;
+            align-items: center;
+            font-size: 1.6vw;
+            padding: 3vw 0;
+
+            span{
+                hr{
+                    width: 2vw;
+                    margin-right: 0.5vw;
+                    border: 1px solid #01D293;
+                }
+            }
+            color: #01D293;
+        }
+
+        .skill{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            img{
+                width: 4.5vw;
+                height: 4.5vw;
+            }
+        }
+    }
+
+    .projects{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5vw 0;
+
+        .p-head{
+            display: flex;
+            align-items: center;
+            font-size: 1.6vw;
+            padding: 3vw 0;
+
+            span{
+                hr{
+                    width: 2vw;
+                    margin-right: 0.5vw;
+                    border: 1px solid #01D293;
+                }
+            }
+            color: #01D293;
+        }
+
+        .cards{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 1vw;
+            
+            a{
+                text-decoration: none;
+                .card{
+                    background-color: #212529;
+                    border-radius: 1vw;
+                    padding: 1vw;
+    
+                    .project-info{
+    
+                        img{
+                            height: 15vw;
+                            width: 27vw;
+                            border-radius: 1vw;
+                            padding-bottom: 1vw;
+                        }
+    
+                        p{
+                            color: #fffff2;
+                        }
+                    }
+    
+                    .tech{
+                        margin-top: 1.5vw;
+                        span{
+                            background-color: #434c58;
+                            font-size: 0.7vw;
+                            padding: 0.4vw 0.6vw;
+                            border-radius: 0.2vw;
+                        }
+                    }
+    
+                }
+            }
+        }
+
+    }    
+
+    .profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        margin-bottom: 4vw;
+        
+        .p-head{
+            display: flex;
+            align-items: center;
+            font-size: 1.6vw;
+            padding: 3vw 0;
+
+            span{
+                hr{
+                    width: 2vw;
+                    margin-right: 0.5vw;
+                    border: 1px solid #01D293;
+                }
+            }
+            color: #01D293;
+        }
+
+        .links{
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a{
+                text-decoration: none;
+                
+                img{
+                    height: 4.5vw;
+                    width: 4.5vw;
+                }
+
+            }
+
+        }
+
+    }
+
+    .footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vw;
+        background-color: #01D293;
+        padding: 0.2vw 0;
+        .foot-data{
+            color: #0e1630;
+        }
+
+    }
+}

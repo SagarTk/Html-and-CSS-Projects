@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Oswald&family=Poppins&family=Quicksand&family=Roboto&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: #fffff2;
+  font-family: Quicksand;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: #0e1630;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main header {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  position: fixed;
+  background-color: #0e1630;
+}
+.main header .nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main header .nav .name {
+  font-size: 2vw;
+}
+.main header .nav .name span {
+  color: #01D293;
+}
+.main header .nav .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 36%;
+}
+.main header .nav .navigation a {
+  text-decoration: none;
+  font-size: 1.1vw;
+}
+.main header .nav .navigation .nav-data {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.main header .nav .navigation .nav-data a {
+  color: #808DAD;
+}
+.main header .nav .navigation .social-handles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+.main header .nav .navigation .social-handles h5 {
+  color: #808DAD;
+  font-size: 1.4vw;
+}
+.main header .nav .navigation .social-handles img {
+  margin-top: 5.5px;
+  height: 1vw;
+  width: 1vw;
+}
+.main .about {
+  margin: 5vw 0;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.main .about .left-section {
+  width: 50%;
+  padding: 2vw 0;
+}
+.main .about .left-section .hello {
+  display: flex;
+  align-items: center;
+  font-size: 1.6vw;
+  padding: 1vw 0;
+  color: #01D293;
+}
+.main .about .left-section .hello span hr {
+  width: 2vw;
+  margin-right: 0.5vw;
+  border: 1px solid #01D293;
+}
+.main .about .left-section h4 {
+  font-size: 2vw;
+  font-weight: 500;
+  color: #E5E7EB;
+}
+.main .about .left-section .desig {
+  padding: 0.5vw 0;
+  color: #808DAD;
+  font-size: 1.2vw;
+}
+.main .about .left-section .info {
+  color: #808DAD;
+  font-size: 1vw;
+  padding-top: 1.2vw;
+}
+.main .about .right-section {
+  padding: 2vw 0;
+}
+.main .about .right-section img {
+  height: 28vw;
+  width: 28vw;
+  border-radius: 50%;
+}
+.main .qualification {
+  width: 90%;
+  margin: 1.5vw 0;
+}
+.main .qualification .qual {
+  display: flex;
+  align-items: center;
+  font-size: 1.6vw;
+  padding: 1.5vw 0;
+  color: #01D293;
+}
+.main .qualification .qual span hr {
+  width: 2vw;
+  margin-right: 0.5vw;
+  border: 1px solid #01D293;
+}
+.main .qualification .education {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main .qualification .education .edu-sec {
+  border: 1px solid #808DAD;
+  width: 30%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0.5vw;
+  border-radius: 1vw;
+}
+.main .qualification .education .edu-sec div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .qualification .education .edu-sec div .title {
+  display: flex;
+  align-items: center;
+}
+.main .qualification .education .edu-sec div .title img {
+  height: 1.2vw;
+  width: 1.2vw;
+  margin-right: 0.4vw;
+}
+.main .qualification .education .edu-sec div span {
+  color: #6c81b6;
+  font-size: 0.8vw;
+}
+.main .qualification .education .edu-sec .place {
+  color: #808DAD;
+  font-size: 0.8vw;
+  padding-top: 0.2vw;
+}
+.main .qualification .education .edu-sec .grade {
+  color: #808DAD;
+  font-size: 0.9vw;
+  padding-top: 1vw;
+}
+.main .skills {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 5vw;
+}
+.main .skills .myskill {
+  display: flex;
+  align-items: center;
+  font-size: 1.6vw;
+  padding: 3vw 0;
+  color: #01D293;
+}
+.main .skills .myskill span hr {
+  width: 2vw;
+  margin-right: 0.5vw;
+  border: 1px solid #01D293;
+}
+.main .skills .skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.main .skills .skill img {
+  width: 4.5vw;
+  height: 4.5vw;
+}
+.main .projects {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5vw 0;
+}
+.main .projects .p-head {
+  display: flex;
+  align-items: center;
+  font-size: 1.6vw;
+  padding: 3vw 0;
+  color: #01D293;
+}
+.main .projects .p-head span hr {
+  width: 2vw;
+  margin-right: 0.5vw;
+  border: 1px solid #01D293;
+}
+.main .projects .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+.main .projects .cards a {
+  text-decoration: none;
+}
+.main .projects .cards a .card {
+  background-color: #212529;
+  border-radius: 1vw;
+  padding: 1vw;
+}
+.main .projects .cards a .card .project-info img {
+  height: 15vw;
+  width: 27vw;
+  border-radius: 1vw;
+  padding-bottom: 1vw;
+}
+.main .projects .cards a .card .project-info p {
+  color: #fffff2;
+}
+.main .projects .cards a .card .tech {
+  margin-top: 1.5vw;
+}
+.main .projects .cards a .card .tech span {
+  background-color: #434c58;
+  font-size: 0.7vw;
+  padding: 0.4vw 0.6vw;
+  border-radius: 0.2vw;
+}
+.main .profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin-bottom: 4vw;
+}
+.main .profile .p-head {
+  display: flex;
+  align-items: center;
+  font-size: 1.6vw;
+  padding: 3vw 0;
+  color: #01D293;
+}
+.main .profile .p-head span hr {
+  width: 2vw;
+  margin-right: 0.5vw;
+  border: 1px solid #01D293;
+}
+.main .profile .links {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .profile .links a {
+  text-decoration: none;
+}
+.main .profile .links a img {
+  height: 4.5vw;
+  width: 4.5vw;
+}
+.main .footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vw;
+  background-color: #01D293;
+  padding: 0.2vw 0;
+}
+.main .footer .foot-data {
+  color: #0e1630;
+}/*# sourceMappingURL=style.css.map */
